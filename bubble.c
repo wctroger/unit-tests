@@ -34,7 +34,7 @@ void bubble_sort(List **head)
         sub_for_Max = num_list - (i + 1);
         pre_sub_head = head;
         for (sub_i = 0; sub_head && sub_head->next && (sub_i < sub_for_Max);
-             sub_i++) {
+                sub_i++) {
             if (sub_head->value < sub_head->next->value) {
                 sub_head = swap(sub_head,sub_head,sub_head->next);
                 *pre_sub_head = sub_head;
